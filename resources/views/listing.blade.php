@@ -1,4 +1,5 @@
 @extends('layout')
+@include('partials._search')
 @section('content')
 <h2>
     {{$listing['title']}}
